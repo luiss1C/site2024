@@ -1,26 +1,107 @@
-.cabeçalho_lista {
-    background-color: green;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
     font-size: 24px;
-    }
-    
-    .cabeçalho_imagem {
-    width: 25%;
-    height: 25%;
-    }
-    
-    .itens{
+    font-weight: bold;
+    display: inline;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
     display: inline-block;
-    margin: 0 32px;
-    font-size: 30px;
-    
-    }
-    
-    * {
-    margin: 0 16px;
-    padding: 24px 0;
-    }    
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #ffd700;
+}
+
+/* Estilo para o conteúdo principal */
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.links-uteis ul,
+.contato ul {
+    list-style-type: none;
+}
+
+.links-uteis ul li,
+.contato ul li {
+    margin-bottom: 10px;
+}
+
+.links-uteis ul li a,
+.contato ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links-uteis ul li a:hover,
+.contato ul li a:hover {
+    color: #ffd700;
+}
+
+/* Estilo para os direitos autorais */
+.direitos-autorais {
+    margin-top: 20px;
+}
+
